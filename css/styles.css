@@ -82,9 +82,7 @@ h2 {
   
   .col-lg-4 {
     float: left;
-  }
-  .col-lg-4 {
-    width: 32%;
+    width: 31%;
   }
 }
 
