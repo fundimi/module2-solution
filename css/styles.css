@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 20px;
+
+}
+
+/* div space = Total sections */
+/*div {
+    background-color: #ff1e00;
+} */
+
+section {
+  margin: 0px 0px 10px 0px;
+  border: 3px solid black;
+  padding: 35px 5px 5px 5px;
+  position: relative;
+}
+
+#section1 {
+  background-color: #A52A2A;
+  
+}
+
+#section2 {
+  background-color: #DEB887;
+  
+}
+
+#section3 {
+  background-color: #5F9EA0;
+  
+}
+
+/* Titles = h[x] */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+h2 {
+  position: absolute;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  float: right;
+  top: 0;
+  right: 0;
+  padding: 1px 20px;
+}
+
+#h2chicken {
+  background-color: pink;
+}
+
+#h2beef {
+  background-color: maroon;
+}
+
+#h2sushi {
+  background-color: rosybrown;
+}
+
+
+
+
+
+
+/* Simples Framework */
+.row {
+  width: 100%;
+}
+
+/* Desktop devices */
+@media (min-width: 992px) {
+  section {
+    margin-left: 15px;
+}
+  
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 32%;
+  }
+}
+
+
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  #section2 {
+    float: right;
+  }
+  #section3 {
+    width: 100%;
+  }
+ 
+
+  .col-md-6 {
+    float: left;
+    width: 49%;
+  }
+}
+
+
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+}
